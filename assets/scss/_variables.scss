@@ -1,0 +1,27 @@
+// Font Family
+$spa: 'Spartan', sans-serif;
+
+// Colors ---------------
+$white: #fff;
+
+$black: #2e2e2e;
+
+$grey: #f7f7fd;
+
+$theme-color: #d3932c;
+$text-color: #6b6b6b;
+$hr-border-color: #eceff8;
+
+// Heading Color
+$heading-color: #0f0f0f;
+
+// Soft color
+$black-soft: #7e7e7e;
+
+// Responsive Variables
+$desktop: 'only screen and (min-width: 1600px)';
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg: 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs: '(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
