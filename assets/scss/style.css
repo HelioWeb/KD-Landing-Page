@@ -322,8 +322,8 @@ p {
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
           box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
   z-index: 999;
-  -webkit-animation: sticky  1.2s;
-          animation: sticky  1.2s;
+  -webkit-animation: sticky 1.2s;
+          animation: sticky 1.2s;
 }
 
 .header-nav.sticky .navbar .navbar-nav .nav-item a {
@@ -758,7 +758,7 @@ p {
 }
 
 .off_canvars_overlay.active {
-  opacity: .5;
+  opacity: 0.5;
   visibility: visible;
 }
 
@@ -781,8 +781,8 @@ p {
   z-index: 9999;
   top: 0;
   height: 100vh;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   left: 0;
   margin-left: -100vw;
   padding: 100px 15px 30px;
@@ -838,14 +838,14 @@ p {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  color: #086142;
+  color: #fff;
   text-align: center;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .offcanvas_main_menu li a:hover {
-  color: white;
+  color: #0f0f0f;
   border-bottom: 1px solid white;
 }
 
@@ -868,13 +868,13 @@ p {
 .offcanvas_footer span a {
   font-size: 14px;
   font-weight: 600;
-  color: #086142;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .offcanvas_footer span a:hover {
-  color: white;
+  color: #0f0f0f;
 }
 
 .canvas_close {
@@ -894,7 +894,7 @@ p {
   line-height: 34px;
   border: 1px solid #d3932c;
   border-radius: 50%;
-  color: #086142;
+  color: #0f0f0f;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -953,7 +953,7 @@ p {
 }
 
 .offcanvas-social ul li a:hover {
-  background: #0e7050;
+  background: #0f0f0f;
   color: white;
 }
 
